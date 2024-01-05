@@ -56,6 +56,6 @@ app.get("/random", async (req, res) => {
 
 app.get("/image/:path")
 
-app.listen(3000, () => {
+app.listen(3002, () => {
     console.log("Degawa API is now listen on Port 3000", "http://localhost:3000")
 })
